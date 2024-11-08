@@ -1,0 +1,21 @@
+{
+  "name": "@petProj-example/redux",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@petProj/core": "workspace:*",
+    "@petProj/dashboard": "workspace:*",
+    "@petProj/store-redux": "workspace:*",
+    "@petProj/tus": "workspace:*",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
