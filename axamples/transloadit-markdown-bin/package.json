@@ -1,0 +1,22 @@
+{
+  "name": "@petProj-example/transloadit-markdown-bin",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@petProj/core": "workspace:*",
+    "@petProj/dashboard": "workspace:*",
+    "@petProj/drop-target": "workspace:*",
+    "@petProj/image-editor": "workspace:*",
+    "@petProj/remote-sources": "workspace:*",
+    "@petProj/transloadit": "workspace:*",
+    "@petProj/webcam": "workspace:*",
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
