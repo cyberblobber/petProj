@@ -1,0 +1,28 @@
+{
+  "name": "@petProj-example/transloadit",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@petProj/core": "workspace:*",
+    "@petProj/dashboard": "workspace:*",
+    "@petProj/drop-target": "workspace:*",
+    "@petProj/form": "workspace:*",
+    "@petProj/image-editor": "workspace:*",
+    "@petProj/progress-bar": "workspace:*",
+    "@petProj/remote-sources": "workspace:*",
+    "@petProj/transloadit": "workspace:*",
+    "@petProj/webcam": "workspace:*",
+    "express": "^4.16.4",
+    "he": "^1.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "vite",
+    "start": "npm-run-all --parallel start:server start:client"
+  }
+}
