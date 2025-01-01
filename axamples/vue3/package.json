@@ -1,0 +1,23 @@
+{
+  "name": "@petProj-example/vue3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@petProj/core": "workspace:*",
+    "@petProj/dashboard": "workspace:*",
+    "@petProj/drag-drop": "workspace:*",
+    "@petProj/progress-bar": "workspace:*",
+    "@petProj/tus": "workspace:*",
+    "@petProj/vue": "workspace:*",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
